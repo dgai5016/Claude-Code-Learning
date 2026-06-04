@@ -4,6 +4,7 @@ export default defineConfig({
   title: 'Claude Code 源码完全精通',
   description: '从零到一，彻底学懂 Claude Code 的架构、源码、运行机制、核心原理',
   lang: 'zh-CN',
+  base: '/Claude-Code-Learning/',
 
   head: [
     ['meta', { name: 'theme-color', content: '#1a1a2e' }],
