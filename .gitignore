@@ -1,0 +1,21 @@
+.DS_Store
+
+# VitePress缓存&产物
+*/.vitepress/cache
+*/.vitepress/dist
+
+node_modules/
+
+dist/
+build/
+coverage/
+.cache/
+.turbo/
+
+*.log
+*.tmp
+*.swp
+*.swo
+
+.idea/
+.vscode/
