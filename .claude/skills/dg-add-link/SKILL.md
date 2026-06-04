@@ -68,7 +68,7 @@ argument-hint: <URL>
 
 ## 步骤 5：更新侧边栏导航
 
-修改 `docs/.vitepress/config.ts`，在"其他学习链接"侧边栏分组的 `items` 数组末尾添加新条目：
+修改 `docs/.vitepress/config.ts`，在 `/links/` 侧边栏的 `items` 数组末尾添加新条目：
 ```
 { text: 'N. 标题', link: '/links/#_N-标题锚点' }
 ```

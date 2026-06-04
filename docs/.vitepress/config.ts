@@ -35,17 +35,18 @@ export default defineConfig({
           { text: 'Ch17 二次开发实战', link: '/chapter-17/' },
         ],
       },
-      { text: '其他学习链接', link: '/links/' },
+      { text: '相关学习链接', link: '/links/' },
       { text: '源码仓库', link: 'https://github.com/dgai5016/Claude-Code' },
     ],
 
     sidebar: {
       '/links/': [
         {
-          text: '其他学习链接',
+          text: '相关学习链接',
           collapsed: false,
           items: [
             { text: '1. 分享Claude Code团队内部的5条工作原则', link: '/links/#_1-分享claude-code团队内部的5条工作原则' },
+            { text: '2. How Anthropic teams use Claude Code', link: '/links/#_2-how-anthropic-teams-use-claude-code' },
           ],
         },
       ],
